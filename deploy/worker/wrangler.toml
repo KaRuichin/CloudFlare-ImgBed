@@ -26,6 +26,17 @@ not_found_handling = "single-page-application"
 [images]
 binding = "IMAGES"
 
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+persist = true
+
+[observability.traces]
+enabled = true
+head_sampling_rate = 1
+persist = true
+
 [vars]
 # TG_BOT_TOKEN = ""
 # TG_CHAT_ID = ""
